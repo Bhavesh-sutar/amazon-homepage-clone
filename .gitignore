@@ -1,0 +1,16 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional, if you use VS Code)
+.vscode/
+
+# Mac system files
+*.log
+
+# Node-related (only if you ever use npm packages later)
+node_modules/
+
+# Build output (only if you use any build tools later)
+dist/
+build/

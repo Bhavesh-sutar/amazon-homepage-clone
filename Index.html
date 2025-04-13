@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Clone layout of Amazon homepage with deals, products, and navigation.">
+
+    <title>Amazon</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- First Navbar -->
+      <div class="navbar">
+        <!-- First Navbar - Logo Section  -->
+        <div class="nav-logo logo-border">
+          <div class="logo"></div>
+        </div>
+        <!-- First Navbar - Deliver to India Section  -->
+        <div class="nav-address location-border">
+          <div class="add-deliver-to">
+            <p class="deliver-to">Deliver to</p>
+          </div>
+          <div class="add-icon-India">
+            <i class="fa-solid fa-location-dot loc-icon"></i>
+            <p class="India">India</p>
+          </div>
+        </div>
+        <!-- First Navbar - All Select, Search, Search Icon Section  -->
+        <div class="nav-search">
+          <select name="" id="" class="search-select">
+            <option value="">All</option>
+          </select>
+          <input type="text" placeholder="Search Amazon" class="search-input" />
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <!-- First Navbar - Flag and Language Section  -->
+        <div class="flag-and-language border-flag-and-language">
+          <div class="flag-icon">
+            <i class="fa-solid fa-flag-usa"></i>
+          </div>
+          <p class="language">EN</p>
+        </div>
+        <!-- First Navbar - Hello Sign in and Accounts & Lists Section  -->
+        <div class="nav-sign-in nav-sign-in-border">
+          <p><span class="hello-span">Hello, sign in</span></p>
+          <p class="nav-accounts">Accounts & Lists</p>
+        </div>
+        <!-- First Navbar - Returns and Orders Section  -->
+        <div class="nav-returns-orders nav-returns-orders-border">
+          <p><span class="returns-span">Returns</span></p>
+          <p class="nav-orders">& Orders</p>
+        </div>
+        <!-- First Navbar - Hello Cart Section  -->
+        <div class="cart-and-icon border-cart-and-icon">
+          <div class="cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <p class="cart-name">Cart</p>
+        </div>
+      </div>
+
+      <!-- Navbar Part 2 -->
+      <div class="navbar-2">
+        <!-- Navbar 2 - Icon and All Section  -->
+        <div class="icon-all border-icon-all">
+          <div class="line-icon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <p class="all-text">All</p>
+        </div>
+
+        <!-- Navbar 2 - Navbar Lists Section  -->
+        <div class="nav2-list">
+          <div class="lists">
+            <ul class="ul-lists">
+              <li class="list1-class">
+                <a class="a-class" href="#">Today's Deals</a>
+              </li>
+              <li class="list2-class">
+                <a class="a-class" href="#">Customer Service</a>
+              </li>
+              <li class="list3-class">
+                <a class="a-class" href="#">Registry</a>
+              </li>
+              <li class="list4-class">
+                <a class="a-class" href="#">Gifts Cards</a>
+              </li>
+              <li class="list5-class"><a class="a-class" href="#">Sell</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="hero-sec">
+        <div class="hero-msg">
+          <p>
+            You are on amazon.com. You can also shop on Amazon India for
+            millions of products with fast local delivery.
+            <a href="#">Click here to go to amazon.in</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="shop-section">
+        <!-- Box 1 -->
+        <div class="box">
+          <h2>Player's paradise</h2>
+          <div
+            class="box-img"
+            style="background-image: url('Images/Box1_img.jpg')"
+            role="img" 
+            aria-label="Gaming setup - Player's paradise"
+          ></div>
+          <p> <a href="#">Shop now</a></p>
+        </div>
+        <!-- Box 2 -->
+        <div class="box Devices">
+          <h2>Deals in PCs</h2>
+          <div
+            class="box-img"
+            style="background-image: url('Images/Box2_img.jpg')"
+            role="img" 
+            aria-label="Smartphones and accessories - Stay connected"
+          ></div>
+          <p> <a href="#">Shop now</a></p>
+        </div>
+        <!-- Box 3 -->
+        <div class="box">
+          <h2>Smartwatches</h2>
+          <div
+            class="box-img"
+            style="background-image: url('Images/Box3_img.jpg')"
+            role="img" aria-label="Home appliances - Comfort meets convenience"
+          ></div>
+          <p> <a href="#">Shop now</a></p>
+        </div>
+        <!-- Box 4 -->
+        <div class="box">
+          <h2>Toys under $25</h2>
+          <div
+            class="box-img"
+            style="background-image: url('Images/Box4_img.jpg')"
+            role="img" aria-label="Beauty essentials - Self-care products"
+          ></div>
+          <p> <a href="#">Shop now</a></p>
+        </div>
+        <!-- Box 5 -->
+        <div class="box">
+          <h2>Office furniture</h2>
+          <div
+            class="box-img"
+            style="background-image: url('Images/Box5_img.jpg')"
+            role="img" aria-label="Fashion wear - Latest trends"
+          ></div>
+          <p> <a href="#">Shop now</a></p>
+        </div>
+        <!-- Box 6 -->
+        <div class="box">
+          <h2>Deals on shoes</h2>
+          <div
+            class="box-img"
+            style="background-image: url('Images/Box6_img.jpg')"
+            role="img" aria-label="Footwear collection - Stylish and comfortable"
+          ></div>
+          <p> <a href="#">Shop now</a></p>
+        </div>
+        <!-- Box 7 -->
+        <div class="box">
+          <h2>Indoor plants</h2>
+          <div
+            class="box-img"
+            style="background-image: url('Images/Box7_img.jpg')"
+            role="img" aria-label="Kitchen essentials - Smart cooking tools"
+          ></div>
+          <p> <a href="#">Shop now</a></p>
+        </div>
+        <!-- Box 8 -->
+        <div class="box">
+          <h2>Beauty steals under $25</h2>
+          <div
+            class="box-img"
+            style="background-image: url('Images/Box8_img.jpg')"
+            role="img" aria-label="Books and stationery - Fuel for knowledge"
+          ></div>
+          <p> <a href="#">Shop now</a></p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+
+      <div class="foot-panel1">
+        <a href="#"> Back to Top </a>
+      </div>
+
+      <div class="foot-panel2">
+        <ul>
+          <p>Get to Know Us</p>
+          <a href="#">Career</a>
+          <a href="#">Blog</a>
+          <a href="#">About Amazon</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Amazon Devices</a>
+          <a href="#">Amazon Science</a>
+        </ul>
+        <ul>
+          <p>Connect with Us</p>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+        </ul>
+        <ul>
+          <p>Make Money with Us</p>
+          <a href="#">Sell on Amazon</a>
+          <a href="#">Sell under Amazon Accelerator</a>
+          <a href="#">Protect and Build Your Brand</a>
+          <a href="#">Amazon Global Selling</a>
+          <a href="#">Become an Affiliate</a>
+          <a href="#">Fulfillment by Amazon</a>
+          <a href="#">Advertise Your Products</a>
+          <a href="#">Amazon Pay on Merchants</a>
+        </ul>
+        <ul>
+          <p>Let Us Help You</p>
+          <a href="#">COVID-19 and Amazon</a>
+          <a href="#">Your Account</a>
+          <a href="#">Returns Centre</a>
+          <a href="#">100% Purchase Protection</a>
+          <a href="#">Amazon App Download</a>
+          <a href="#">Help</a>
+        </ul>
+      </div>
+
+      <hr>
+
+      <div class="foot-panel3">
+        <div class="foot-p3-logo"></div>
+      </div>
+
+      <div class="foot-panel4">
+        <div class="foot-p4-pages">
+          <a href="#">Conditions of Use</a>
+          <a href="#">Privacy Notice</a>
+          <a href="#">Consumer Health Data Privacy Disclosure</a>
+          <a href="#">Your Ads Privacy Choices</a>
+        </div>
+        <div class="foot-p4-copyright">
+          <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+        </div>
+
+    </footer>
+  </body>
+</html>
