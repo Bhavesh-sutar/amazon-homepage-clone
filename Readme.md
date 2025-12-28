@@ -14,7 +14,7 @@ A static UI clone of the Amazon India homepage built using **HTML and CSS** to p
 
 ## Live Demo
 
-(https://bhavesh-sutar.github.io/amazon-homepage-clone/)
+https://bhavesh-sutar.github.io/amazon-homepage-clone/
 
 ## Author
 
